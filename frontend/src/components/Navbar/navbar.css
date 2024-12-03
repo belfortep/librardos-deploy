@@ -1,0 +1,128 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --navbar-bg: #f8f9fa;
+  --navbar-text: #333333;
+  --navbar-logo: #3b82f6;
+  --hover-color: #3b82f6;
+  --logout-color: #6b7280;
+  --username-color: #4b5563;
+  --shadow-color: rgba(0,0,0,0.1);
+}
+
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --navbar-bg: #2a2a2a;
+  --navbar-text: #ffffff;
+  --navbar-logo: #60a5fa;
+  --hover-color: #60a5fa;
+  --logout-color: #9ca3af;
+  --username-color: #d1d5db;
+  --shadow-color: rgba(0,0,0,0.3);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--navbar-logo);
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--navbar-text);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-button:hover {
+  color: var(--hover-color);
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout-button {
+  color: var(--logout-color);
+}
+
+.logout-button:hover {
+  color: var(--hover-color);
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.username {
+  font-size: 0.875rem;
+  color: var(--username-color);
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.theme-toggle {
+  color: var(--navbar-text);
+}
+
+.theme-toggle:hover {
+  color: var(--hover-color);
+}

@@ -1,0 +1,95 @@
+.mislibrardos-title {
+    text-align: center;
+    margin: 5px;
+}
+
+.mislibrardos-sub-title {
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.mislibrardos-sub-container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    display: grid;
+}
+
+.mislibrardos-sub-container-div{
+    border: 2px #333 solid;
+    background-color: #eee;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+li{
+    list-style: none;
+}
+
+.mislibrardos-container {
+    color: black;
+    font-size: 18px;
+}
+
+.mislibrardos-button-div {
+    float: right;
+}
+
+.button-mislibrardos-delete{
+    background-color: #eee;
+    border: none;
+}
+
+.button-mislibrardos-update{
+    background-color: #eee;
+    border: none;
+}
+
+.mislibrardos-container .mislibrardos-name{
+    color: green;
+    transition: color 0.25s ease-out;
+    padding-right: 12px;
+    font-weight: 600;
+}
+
+.mislibrardos-container .mislibrardos-name:hover{
+    color: blue;
+}
+
+.mislibrardos-expired-text{
+    color:red;
+    font-weight: 600;
+}
+
+.loginInput {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.community-filters {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: larger;
+}
+
+.community-filters button {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.community-filters button:active {
+    background-color: white; /* Color de fondo cuando está activo */
+    color: red; /* Texto en blanco para contraste */
+    border-color: black; /* Cambia el borde si es necesario */
+}

@@ -1,0 +1,56 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --navbar-bg: #f8f9fa;
+  --navbar-text: #333333;
+  --card-bg: #ffffff;
+  --card-border: #e0e0e0;
+  --button-bg: #3b82f6;
+  --button-text: #ffffff;
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+}
+
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --navbar-bg: #2a2a2a;
+  --navbar-text: #ffffff;
+  --card-bg: #2a2a2a;
+  --card-border: #4a4a4a;
+  --button-bg: #3b82f6;
+  --button-text: #ffffff;
+  --input-bg: #3a3a3a;
+  --input-border: #5a5a5a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+}
+
+/* Estilos generales que se aplicarán a todas las páginas */
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--card-border);
+}
+
+.button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+input, textarea, select {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text-color);
+}
+
+/* Añade más estilos generales según sea necesario */

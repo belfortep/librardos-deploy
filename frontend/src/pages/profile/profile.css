@@ -1,0 +1,14 @@
+.mislibrardos-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.btn.btn-primary {
+  margin-left: 10px;
+}
+
+.btn.btn-warning {
+  margin-left: 10px;
+}

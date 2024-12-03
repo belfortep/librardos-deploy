@@ -1,0 +1,136 @@
+.mislibrardos-title {
+        text-align: center;
+        margin: 5px;
+}
+
+.mislibrardos-sub-title {
+        margin-left: 10px;
+}
+
+
+
+.mislibrardos-sub-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        display: grid;
+        
+        
+        
+}
+.mislibrardos-sub-container-div{
+        border: 2px #333 solid;
+        background-color: #eee;
+        border-radius: 12px;
+        padding: 4px;
+}
+
+li{
+        list-style: none;
+        
+}
+
+.mislibrardos-container {
+        color: black;
+        font-size: 18px;
+        
+}
+
+.mislibrardos-button-div {
+        float: right;
+}
+
+.button-mislibrardos-delete{
+        background-color: #eee;
+        border: none;
+}
+
+.button-mislibrardos-update{
+        background-color: #eee;
+        border: none;
+}
+
+.mislibrardos-container .mislibrardos-name{
+        color: green;
+        transition: color 0.25s ease-out;
+        padding-right: 12px;
+        font-weight: 600;
+}
+
+.mislibrardos-container .mislibrardos-name:hover{
+        color: blue;
+}
+
+.mislibrardos-expired-text{
+        color:red;
+        font-weight: 600;
+}
+
+.list-group-item {
+        padding: 10px 15px;
+        margin-bottom: 1px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        text-align: justify;
+}
+
+
+
+.search-container {
+        display: flex;
+        justify-content: space-between; /* Espacio igual entre los campos */
+        
+        flex-wrap: wrap; /* Permite que los elementos se ajusten cuando la pantalla sea pequeña */
+      }
+      
+      /* Estilo para cada input */
+      .search-input {
+        width: 20%; /* El ancho de cada input será del 23% (ajustable) */
+        padding: 10px;
+        margin-left: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+      }
+      
+      /* Estilos cuando los inputs están enfocados */
+      .search-input:focus {
+        border-color: #4CAF50;
+        outline: none;
+      }
+      
+      
+      input[type="checkbox"] {
+        margin-right: 5px;
+        cursor: pointer;
+      }
+      
+      /* Diseño de los filtros (checkbox) */
+      .filters-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+      
+      .filters-container label {
+        margin-bottom: 10px;
+      }
+      
+      /* Estilos adicionales para los inputs (opcional) */
+      input[type="text"], input[type="number"] {
+        background-color: #f9f9f9;
+      }
+      
+      input[type="text"]:hover, input[type="number"]:hover {
+        background-color: #f1f1f1; /* Fondo más claro cuando el cursor pasa por encima */
+      }
+      
+      input[type="checkbox"]:checked + label {
+        color: #4CAF50; /* Cambia el color del texto cuando el checkbox está marcado */
+      }
+      
+      /* Estilo de los placeholders */
+      input::placeholder {
+        color: #888; /* Color del texto del placeholder */
+        font-style: italic; /* Hace que el placeholder sea en cursiva */
+      }

@@ -1,0 +1,66 @@
+.favourite-title {
+        text-align: center;
+        margin: 5px;
+}
+
+.favourite-sub-title {
+        margin-left: 10px;
+}
+
+
+
+.favourite-sub-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        display: grid;
+        
+        
+        
+}
+.favourite-sub-container-div{
+        border: 2px #333 solid;
+        background-color: #eee;
+        border-radius: 12px;
+        padding: 4px;
+}
+
+li{
+        list-style: none;
+        
+}
+
+.favourite-container {
+        color: black;
+        font-size: 18px;
+        
+}
+
+.favourite-button-div {
+        float: right;
+}
+
+.button-favourite-delete{
+        background-color: #eee;
+        border: none;
+}
+
+.button-favourite-update{
+        background-color: #eee;
+        border: none;
+}
+
+.favourite-container .favourite-name{
+        color: green;
+        transition: color 0.25s ease-out;
+        padding-right: 12px;
+        font-weight: 600;
+}
+
+.favourite-container .favourite-name:hover{
+        color: blue;
+}
+
+.favourite-expired-text{
+        color:red;
+        font-weight: 600;
+}
